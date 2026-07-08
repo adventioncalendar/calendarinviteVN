@@ -34,13 +34,13 @@ def invite():
 
     # 6 different events (each repeats every 6 months; together = monthly forever)
     events_data = [
-        ("Protect yourself and your partner with HIV self-testing","Seeing someone new or unsure of a partner’s HIV status? A self-test helps you stay confident and protect what matters. Testing regularly keeps you in control of your health and supports prevention."),
-        ("Confirm your HIV status after a possible exposure: Use an HIV self-test now","Had unprotected sex or a condom break? Take an HIV self-test as soon as possible. If exposure was within the last 72 hours, seek PEP immediately. Acting early helps you stay protected and informed."),
-        ("Prepare for your quarterly PrEP refill by taking an HIV self-test now","On PrEP or continuing prevention? If you’re taking daily oral PrEP, self-test for HIV at least every 3 months. Regular testing keeps your PrEP routine safe, effective, and on track."),
-        ("Be confident while on, or when looking to restart, PrEP by taking an HIV self-test now","Paused or thinking of restarting? Before you begin again, confirm your HIV-negative status with a self-test. Regular testing protects you and keeps your prevention plan working."),
-        ("Take control of your health by taking an HIV self-test now","Feeling healthy doesn’t always mean HIV-free. Many people have no early symptoms. A self-test gives you clarity, confidence, and control over your status."),
-        ("Make HIV self-testing part of your personalized care after a break from PrEP","Not sure when you last tested? Now is a great time to self-test. Regular testing helps you detect early and stay confident in your prevention journey."), 
-    ]
+    ("Bảo vệ bản thân và bạn tình của bạn bằng cách tự xét nghiệm HIV","Bạn đang quen người mới hoặc không chắc về tình trạng HIV của bạn tình? Tự xét nghiệm giúp bạn yên tâm hơn và bảo vệ những điều quan trọng. Xét nghiệm định kỳ giúp bạn chủ động kiểm soát sức khỏe và hỗ trợ phòng ngừa HIV."),
+    ("Xác nhận tình trạng HIV của bạn sau khi có nguy cơ phơi nhiễm: Hãy tự xét nghiệm HIV ngay","Bạn đã quan hệ tình dục không sử dụng biện pháp bảo vệ hoặc bao cao su bị rách? Hãy tự xét nghiệm HIV càng sớm càng tốt. Nếu phơi nhiễm xảy ra trong vòng 72 giờ qua, hãy tìm đến dịch vụ PEP ngay lập tức. Hành động sớm giúp bạn được bảo vệ và có đầy đủ thông tin."),
+    ("Chuẩn bị cho lần nhận thuốc PrEP định kỳ hàng quý bằng cách tự xét nghiệm HIV ngay","Bạn đang sử dụng PrEP hoặc tiếp tục các biện pháp phòng ngừa HIV? Nếu bạn đang dùng PrEP đường uống hằng ngày, hãy tự xét nghiệm HIV ít nhất mỗi 3 tháng. Xét nghiệm định kỳ giúp việc sử dụng PrEP của bạn luôn an toàn, hiệu quả và đúng kế hoạch."),
+    ("Hãy tự tin khi đang sử dụng hoặc chuẩn bị sử dụng lại PrEP bằng cách tự xét nghiệm HIV ngay","Bạn đã tạm ngừng hoặc đang cân nhắc sử dụng lại PrEP? Trước khi bắt đầu lại, hãy xác nhận tình trạng HIV âm tính của bạn bằng cách tự xét nghiệm. Xét nghiệm định kỳ giúp bảo vệ bạn và duy trì hiệu quả của kế hoạch phòng ngừa."),
+    ("Chủ động bảo vệ sức khỏe của bạn bằng cách tự xét nghiệm HIV ngay","Cảm thấy khỏe mạnh không phải lúc nào cũng có nghĩa là bạn không nhiễm HIV. Nhiều người không có triệu chứng trong giai đoạn đầu. Tự xét nghiệm giúp bạn có thông tin rõ ràng, sự tự tin và chủ động kiểm soát tình trạng HIV của mình."),
+    ("Hãy đưa tự xét nghiệm HIV vào kế hoạch chăm sóc sức khỏe cá nhân sau khi tạm ngừng PrEP","Bạn không nhớ lần gần nhất mình xét nghiệm là khi nào? Đây là thời điểm thích hợp để tự xét nghiệm HIV. Xét nghiệm định kỳ giúp phát hiện sớm và giúp bạn tự tin hơn trên hành trình phòng ngừa HIV."),
+]
 
     # Alerts:
     # - Day before: midnight the day before (relative to all-day start at 00:00)
